@@ -1,0 +1,328 @@
+version: 6
+profiles:
+  - type: local
+    name: Git Bash
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.925
+      113.923"><defs><clipPath id="aaaaaaaa"><path d="M0
+      0h2183.73v912H0V0z"></path></clipPath><clipPath id="bbbbbbbb"><path
+      d="M230.892 51.977L181.15 2.238a7.336 7.336 0 00-10.375 0l-10.328 10.33
+      13.102 13.102c3.046-1.028 6.537-.339 8.964 2.089a8.72 8.72 0 012.07
+      9.02l12.627 12.627c3.055-1.053 6.58-.373 9.02 2.07a8.727 8.727 0 010
+      12.346 8.729 8.729 0 01-12.349 0 8.734 8.734 0 01-1.9-9.494L180.204
+      42.55v30.99a8.806 8.806 0 012.309 1.652c3.41 3.409 3.41 8.933 0
+      12.347-3.411 3.41-8.938 3.41-12.346 0-3.41-3.414-3.41-8.938 0-12.347a8.735
+      8.735 0 012.859-1.905V42.009a8.636 8.636 0 01-2.859-1.905 8.728 8.728 0
+      01-1.88-9.544L155.37 17.642l-34.106 34.105a7.339 7.339 0 000 10.378l49.742
+      49.74a7.338 7.338 0 0010.376 0l49.509-49.51a7.341 7.341 0 000-10.378"
+      fill="#f03c2e"></path></clipPath></defs><g transform="translate(-119.116
+      -.075)" clip-path="url(#bbbbbbbb)"><path
+      d="M230.435-10.813l-49.742-49.739a7.336 7.336 0 00-10.374 0l-49.51
+      49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338 7.338 0 0010.376
+      0l49.51-49.508a7.341 7.341 0 000-10.379" fill="#ff8080"></path><path
+      d="M293.393 51.928L243.65 2.188a7.336 7.336 0 00-10.375 0c-16.502
+      16.505-33.006 33.007-49.51 49.51a7.339 7.339 0 000 10.378l49.742
+      49.739a7.338 7.338 0 0010.376 0l49.509-49.509a7.341 7.341 0 000-10.378"
+      fill="#8dd35f"></path><path d="M167.436 51.52L117.693 1.783a7.336 7.336 0
+      00-10.374 0l-49.51 49.509a7.339 7.339 0 000 10.378l49.741 49.74a7.338
+      7.338 0 0010.376-.001l49.51-49.508a7.341 7.341 0 000-10.38"
+      fill="#80b3ff"></path><path d="M230.13 114.117l-49.743-49.739a7.336 7.336
+      0 00-10.374 0l-49.51 49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338
+      7.338 0 0010.376 0l49.51-49.508a7.341 7.341 0 000-10.379"
+      fill="#ffe680"></path></g></svg>
+    options:
+      command: C:\Program Files\Git\bin\bash.exe
+      args:
+        - '--login'
+        - '-i'
+      env:
+        WT_SESSION: 0
+    disableDynamicTitle: true
+    id: local:custom:Git-Bash:a0434608-784d-4f37-9043-3477f42885c1
+  - type: local
+    name: Git Bash (admin)
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.925
+      113.923"><defs><clipPath id="aaaaaaaa"><path d="M0
+      0h2183.73v912H0V0z"></path></clipPath><clipPath id="bbbbbbbb"><path
+      d="M230.892 51.977L181.15 2.238a7.336 7.336 0 00-10.375 0l-10.328 10.33
+      13.102 13.102c3.046-1.028 6.537-.339 8.964 2.089a8.72 8.72 0 012.07
+      9.02l12.627 12.627c3.055-1.053 6.58-.373 9.02 2.07a8.727 8.727 0 010
+      12.346 8.729 8.729 0 01-12.349 0 8.734 8.734 0 01-1.9-9.494L180.204
+      42.55v30.99a8.806 8.806 0 012.309 1.652c3.41 3.409 3.41 8.933 0
+      12.347-3.411 3.41-8.938 3.41-12.346 0-3.41-3.414-3.41-8.938 0-12.347a8.735
+      8.735 0 012.859-1.905V42.009a8.636 8.636 0 01-2.859-1.905 8.728 8.728 0
+      01-1.88-9.544L155.37 17.642l-34.106 34.105a7.339 7.339 0 000 10.378l49.742
+      49.74a7.338 7.338 0 0010.376 0l49.509-49.51a7.341 7.341 0 000-10.378"
+      fill="#f03c2e"></path></clipPath></defs><g transform="translate(-119.116
+      -.075)" clip-path="url(#bbbbbbbb)"><path
+      d="M230.435-10.813l-49.742-49.739a7.336 7.336 0 00-10.374 0l-49.51
+      49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338 7.338 0 0010.376
+      0l49.51-49.508a7.341 7.341 0 000-10.379" fill="#ff8080"></path><path
+      d="M293.393 51.928L243.65 2.188a7.336 7.336 0 00-10.375 0c-16.502
+      16.505-33.006 33.007-49.51 49.51a7.339 7.339 0 000 10.378l49.742
+      49.739a7.338 7.338 0 0010.376 0l49.509-49.509a7.341 7.341 0 000-10.378"
+      fill="#8dd35f"></path><path d="M167.436 51.52L117.693 1.783a7.336 7.336 0
+      00-10.374 0l-49.51 49.509a7.339 7.339 0 000 10.378l49.741 49.74a7.338
+      7.338 0 0010.376-.001l49.51-49.508a7.341 7.341 0 000-10.38"
+      fill="#80b3ff"></path><path d="M230.13 114.117l-49.743-49.739a7.336 7.336
+      0 00-10.374 0l-49.51 49.51a7.339 7.339 0 000 10.378l49.741 49.738a7.338
+      7.338 0 0010.376 0l49.51-49.508a7.341 7.341 0 000-10.379"
+      fill="#ffe680"></path></g></svg>
+    options:
+      command: C:\Program Files\Git\bin\bash.exe
+      args:
+        - '--login'
+        - '-i'
+      env:
+        WT_SESSION: 0
+      runAsAdministrator: true
+      cwd: C:\Users\Ryan
+    id: local:custom:Git-Bash-(admin):756f5b56-53fc-4371-8e8d-104a001206ff
+    disableDynamicTitle: true
+hotkeys:
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-line:
+    - Ctrl-Shift-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  focus-all-tabs:
+    - Ctrl-Alt-Shift-I
+  scroll-to-top:
+    - Ctrl-PageUp
+  scroll-up:
+    - Alt-PageUp
+  scroll-down:
+    - Alt-PageDown
+  scroll-to-bottom:
+    - Ctrl-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-tab:
+    - Ctrl-Shift-T
+  new-window:
+    - Ctrl-Shift-N
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-Z
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  restart-tab: []
+  reconnect-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tabs:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-S
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-E
+  command-selector:
+    - Ctrl-Shift-P
+  toggle-window:
+    - Ctrl-Space
+  disconnect-tab: []
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Tabby Default
+    foreground: '#cacaca'
+    background: '#171717'
+    cursor: '#bbbbbb'
+    colors:
+      - '#000000'
+      - '#ff615a'
+      - '#b1e969'
+      - '#ebd99c'
+      - '#5da9f6'
+      - '#e86aff'
+      - '#82fff7'
+      - '#dedacf'
+      - '#313131'
+      - '#f58c80'
+      - '#ddf88f'
+      - '#eee5b2'
+      - '#a5c7ff'
+      - '#ddaaff'
+      - '#b7fff9'
+      - '#ffffff'
+  profile: local:custom:Git-Bash:a0434608-784d-4f37-9043-3477f42885c1
+  cursor: beam
+  autoOpen: true
+  customColorSchemes: []
+  showRecentProfiles: 0
+  lightColorScheme:
+    name: Tabby Default Light
+    foreground: '#4d4d4c'
+    background: '#ffffff'
+    cursor: '#4d4d4c'
+    colors:
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+  font: MesloLGS NF
+  fontSize: 16
+ssh:
+  warnOnClose: true
+clickableLinks: {}
+accessibility: {}
+appearance: {}
+hacks: {}
+providerBlacklist: []
+commandBlacklist: []
+language: zh-TW
+enableWelcomeTab: false
+pluginBlacklist:
+  - relaxed-theme
+profileDefaults:
+  ssh:
+    disableDynamicTitle: true
+    type: ssh
+docker: {}
+recoverTabs: false
+web: {}
+groups: []
+profileBlacklist: []
+enableAutomaticUpdates: false
+configSync:
+  parts: {}
+  token: >-
+    73107e6d026e2e0a41877cbe43bd479d75990819fa00d306d39116b35d1a632d252481c4211a493cac944faaf270034dfd385e31ec7b3ebbaa89e405ef62648a
+  configID: 24711
+  auto: true
