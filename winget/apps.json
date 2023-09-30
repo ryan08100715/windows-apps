@@ -8,27 +8,67 @@
 				 * normal
 				 */
 				{
+					"PackageIdentifier": "Google.Chrome"
+				},
+				{
 					"PackageIdentifier": "AutoHotkey.AutoHotkey"
 				},
 				{
-					"PackageIdentifier": "Google.Chrome"
+					"PackageIdentifier": "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier": "CPUID.CPU-Z.ROG"
+				},
+				{
+					"PackageIdentifier": "Daum.PotPlayer"
 				},
 				{
 					"PackageIdentifier": "RARLab.WinRAR"
 				},
 				{
-					"PackageIdentifier": "Google.GoogleDrive"
+					"PackageIdentifier": "Surfshark.Surfshark"
+				},
+				/*
+				 * professional
+				 */
+				{
+					"PackageIdentifier": "Git.Git"
+				},
+				{
+					"PackageIdentifier": "Eugeny.Tabby"
+				},
+				/*
+				 * playing
+				 */
+				{
+					"PackageIdentifier": "Valve.Steam"
+				},
+				{
+					"PackageIdentifier": "Discord.Discord"
+				},
+				/*
+				 * drivers
+				 */
+				{
+					"PackageIdentifier": "Nvidia.GeForceExperience"
+				},
+				{
+					"PackageIdentifier": "Logitech.GHUB"
+				},
+				{
+					"PackageIdentifier": "SteelSeries.GG"
+				},
+				{
+					"PackageIdentifier": "Asus.ArmouryCrate"
 				},
 				/*
 				 * programming develop
 				 */
 				// common
 				{
-					"PackageIdentifier": "Git.Git"
-				},
-				{
 					"PackageIdentifier": "Microsoft.VisualStudioCode"
 				},
+				// api
 				{
 					"PackageIdentifier": "Postman.Postman"
 				},
@@ -48,60 +88,12 @@
 				{
 					"PackageIdentifier": "dbeaver.dbeaver"
 				},
-				// other tools
-				{
-					"PackageIdentifier": "Surfshark.Surfshark"
-				},
+				// container
 				{
 					"PackageIdentifier": "VMware.WorkstationPro"
 				},
 				{
-					"PackageIdentifier": "Eugeny.Tabby"
-				},
-				{
 					"PackageIdentifier": "Docker.DockerDesktop"
-				},
-				{
-					"PackageIdentifier": "Streamlink.Streamlink"
-				},
-				{
-					"PackageIdentifier": "Adobe.Acrobat.Reader.64-bit"
-				},
-				/*
-				 * communication
-				 */
-				{
-					"PackageIdentifier": "Discord.Discord"
-				},
-				/*
-				 * play
-				 */
-				{
-					"PackageIdentifier": "Valve.Steam"
-				},
-				/*
-				 * media
-				 */
-				{
-					"PackageIdentifier": "Daum.PotPlayer"
-				},
-				{
-					"PackageIdentifier": "VideoLAN.VLC"
-				},
-				/*
-				 * drivers
-				 */
-				{
-					"PackageIdentifier": "Nvidia.GeForceExperience"
-				},
-				{
-					"PackageIdentifier": "Logitech.GHUB"
-				},
-				{
-					"PackageIdentifier": "SteelSeries.GG"
-				},
-				{
-					"PackageIdentifier": "Asus.ArmouryCrate"
 				}
 			],
 			"SourceDetails": {
